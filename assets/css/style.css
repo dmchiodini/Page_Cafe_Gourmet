@@ -145,7 +145,7 @@ article {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 260px;
+    height: auto;
     background-color: #fdfcf0;
 }
 
@@ -153,7 +153,92 @@ article .container {
     flex-direction: row;
 }
 
+.profile1, .profile2 {
+    align-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin-top: 35px;
+    margin-bottom: 35px;
+}
 
+.profile1 {
+    margin-right: 70px;
+}
 
+.user {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    font-size: 32px;
+    margin-bottom: 10px;
+}
 
+.user img {
+    border-radius: 42px;
+    margin-right: 25px;
+}
 
+.comment {
+    font-size: 14px;
+}
+
+.images_coffee {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 290px;
+}
+
+.images_coffee .container {
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.contact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 230px;
+    background-color: #260d07;
+}
+
+.contact .container {
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    color: #FFF; 
+}
+
+.title_contact {
+    height: 100px;
+    line-height: 100px;
+    font-size: 30px;
+}
+
+.contact_sub {
+    display: flex;
+    align-items: center;
+    width: 335px;
+    height: 25px;
+    padding: 10px;
+    margin-bottom: 10px;
+    font-size: 14px;
+    background-color: #180702;
+}
+
+.contact_us img {
+    margin-right: 10px;
+}
+
+.locate img {
+    margin-right: 5px;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #180702;
+    height: 50px;;
+    color: #BBB;
+}
