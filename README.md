@@ -1,4 +1,4 @@
-Site criado com base em layouts gratuitos encontrado na internet.
+Site criado com base em layout gratuito encontrado na internet.
 
 <ul>
   <li>HTML</li>
